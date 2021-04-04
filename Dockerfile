@@ -11,6 +11,9 @@ COPY ui.R server.R ./
 COPY ./data ./data
 COPY ./scripts/run_app.sh ./
 
+# install dependencies
+RUN R -e "install.packages(\"shinythemes\")"
+
 # expose port
 EXPOSE 3838
 
