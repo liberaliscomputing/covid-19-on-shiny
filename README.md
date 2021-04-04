@@ -18,7 +18,7 @@ $ cd covid-19-on-shiny
 3. Build a Docker image:
 
 ```bash
-docker build -t covid-19-on-shiny .
+$ docker build -t covid-19-on-shiny .
 ```
 
 4. Run a container:
