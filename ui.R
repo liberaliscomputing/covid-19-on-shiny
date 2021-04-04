@@ -1,23 +1,25 @@
 library(shiny)
+library(shinythemes)
 
 
 shinyUI(
-  fluidPage(
-    # Application title
-    titlePanel("COVID-19 on Shiny"),
+  navbarPage(
+    "COVID-19 on Shiny",
+    tabPanel(
+      "Resources",
+      sidebarLayout(
+        sidebarPanel(
+          uiOutput("select"),
 
-    sidebarLayout(
-      sidebarPanel(
-        uiOutput("select"),
+          uiOutput("check"),
 
-        uiOutput("check"),
+          downloadButton("download", "Download as TSV"),
+          width = 3
+        ),
 
-        downloadButton("download", "Download as TSV")
-      ),
-
-      mainPanel(
-        dataTableOutput("resources")
+        mainPanel(dataTableOutput("resources"), width = 9)
       )
-    )
+    ),
+    shinythemes::themeSelector()
   )
 )
