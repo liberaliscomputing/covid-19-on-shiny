@@ -1,4 +1,4 @@
-ID	Status	code	Subject	Encounter	Performed Period Start	Performed Period End
+ID	Status	Code	Subject	Encounter	Performed Period Start	Performed Period End
 e8447cfd-407d-7ee1-ed30-1cec3e9ce402	Completed	Face mask (physical object)	c753b379-b8f4-4b90-d734-535eb90d3d70	4957ac7f-1ee7-baf4-5e52-f78f4c18dca0	2020-03-04T01:28:51-05:00	2020-03-04T01:41:28-05:00
 bab4324c-483b-a2c3-e971-3e1dcf60a071	Completed	Face mask (physical object)	fddc0b47-bfda-93f9-a542-ba86ab380c5a	48292b00-3315-3a46-8e39-efcd8a40b030	2020-03-08T18:32:03-04:00	2020-03-08T18:44:36-04:00
 be86ec61-5645-242c-6bbe-8ac411b1543e	Completed	Face mask (physical object)	28e391e4-404c-8de0-2d02-b091f7605a2a	936c612d-db83-cef1-dd26-97d571bdc8e4	2020-02-28T16:04:56-05:00	2020-02-28T16:18:59-05:00
